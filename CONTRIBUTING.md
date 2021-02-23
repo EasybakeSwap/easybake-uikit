@@ -24,7 +24,7 @@ Don't forget to setup your IDE with `eslint` and `prettier`.
 The whole project is built with TypeScript. Make sure you export only the types needed on the client.
 Prefer [using interface over types](https://www.typescriptlang.org/docs/handbook/advanced-types.html#interfaces-vs-type-aliases).
 
-## Projet structure
+## Project structure
 
 The entry point is `src/index.ts`, you can find all the exports in this file.
 
