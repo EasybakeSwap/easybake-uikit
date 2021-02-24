@@ -339,7 +339,7 @@ it("renders ConnectModal correctly", () => {
               class="sc-bdfBwQ OmpVE"
               color="primary"
             >
-              Binance Chain Wallet
+              Ethereum Relay Chain Wallet
             </div>
             <svg
               class="sc-dlfnbm cqTLJf"
@@ -397,7 +397,7 @@ it("renders ConnectModal correctly", () => {
           <a
             class="sc-bdfBwQ sc-gsTCUz cxXgLd djpNeP sc-iqHYGH hzLTbV"
             color="primary"
-            href="https://docs.pancakeswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain"
+            href="https://docs.easybakeswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain"
             rel="noreferrer noopener"
             target="_blank"
           >
@@ -477,11 +477,11 @@ it("renders AccountModal correctly", () => {
             <a
               class="sc-bdfBwQ sc-gsTCUz kgxXAa djpNeP"
               color="primary"
-              href="https://bscscan.com/address/0xb218C5D6aF1F979aC42BC68d98A5A0D796C6aB01"
+              href="https://etherscan.io/address/0xb218C5D6aF1F979aC42BC68d98A5A0D796C6aB01"
               rel="noreferrer noopener"
               target="_blank"
             >
-              View on BscScan
+              View on Etherscan
               <svg
                 class="sc-dlfnbm dJUqYR"
                 color="primary"

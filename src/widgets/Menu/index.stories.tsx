@@ -29,7 +29,7 @@ export const Connected: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        cakePriceUsd={0.23158668932877668}
+        ovenPriceUsd={0.23158668932877668}
         links={links}
         profile={null}
       >
@@ -99,7 +99,7 @@ export const WithNoProfile: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        cakePriceUsd={0.23158668932877668}
+        ovenPriceUsd={0.23158668932877668}
         links={links}
         profile={{
           profileLink: "/profile",
@@ -141,7 +141,7 @@ export const WithProfile: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        cakePriceUsd={0.23158668932877668}
+        ovenPriceUsd={0.23158668932877668}
         links={links}
         profile={{
           username: "pancakeswap",
