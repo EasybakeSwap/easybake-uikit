@@ -23,7 +23,7 @@ export const Default: React.FC = () => {
       </BreadCrumbs>
       <BreadCrumbs>
         <Text>EasyBakeSwap</Text>
-        <Text>Upcoming AMM and yield bakery in the Polkadot Ecosystem.</Text>
+        <Text>Stake, bake, and watch your DOUGH rise in our OVEN.</Text>
       </BreadCrumbs>
     </Text>
   );
@@ -33,7 +33,7 @@ export const CustomSeparator: React.FC = () => {
   return (
     <Text p="32px">
       <Text mb="16px">
-        <BreadCrumbs separator={<LogoIcon width="24px" />}>
+        <BreadCrumbs separator={<LogoIcon width="32px" />}>
           <Link href="/" color="secondary" style={{ fontWeight: 400 }}>
             Link
           </Link>

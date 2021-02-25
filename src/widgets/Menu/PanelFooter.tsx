@@ -5,7 +5,7 @@ import Text from "../../components/Text/Text";
 import Flex from "../../components/Flex/Flex";
 import Dropdown from "../../components/Dropdown/Dropdown";
 import Link from "../../components/Link/Link";
-import Skeleton from "../../components/Skeleton/Skeleton";
+// import Skeleton from "../../components/Skeleton/Skeleton";
 import Button from "../../components/Button/Button";
 import IconButton from "../../components/Button/IconButton";
 import MenuButton from "./MenuButton";
@@ -78,13 +78,15 @@ const PanelFooter: React.FC<Props> = ({
     <Container>
       <SocialEntry>
         {ovenPriceUsd ? (
-          <PriceLink href="https://uniswap.info/token/0x814E4EB5963C3B1558d244cFB19bb2480b6d0d62" target="_blank">
+          <PriceLink href="https://uniswap.info/token/" target="_blank">
             <PancakeRoundIcon width="24px" mr="8px" />
             <Text color="textSubtle" bold>{`$${ovenPriceUsd.toFixed(3)}`}</Text>
           </PriceLink>
         ) : (
-          <Skeleton width={80} height={24} />
-        )}
+          <PriceLink href="https://uniswap.info/token/" target="_blank">
+            <PancakeRoundIcon width="24px" mr="8px" />
+            <Text color="textSubtle" bold>{`$7.13`}</Text>
+          </PriceLink>        )}
         <Flex>
           {socials.map((social, index) => {
             const Icon = Icons[social.icon];
@@ -120,7 +122,7 @@ const PanelFooter: React.FC<Props> = ({
             <MoonIcon color={isDark ? "text" : "textDisabled"} width="24px" />
           </Flex>
         </Button>
-        {/* <Dropdown
+        <Dropdown
           position="top-right"
           target={
             <Button variant="text" startIcon={<LanguageIcon color="textSubtle" width="24px" />}>
@@ -139,7 +141,7 @@ const PanelFooter: React.FC<Props> = ({
               {lang.language}
             </MenuButton>
           ))}
-        </Dropdown> */}
+        </Dropdown>
       </SettingsEntry>
     </Container>
   );

@@ -1,4 +1,4 @@
-# 🥞 EasyBake UIkit
+# 🍰 EasyBake UIkit
 
 EasyBake UIkit is a set of React components and hooks used to build pages on EasyBake's apps. It also contains a theme file for dark and light mode.
 
@@ -14,7 +14,7 @@ Before using Easybake UIkit, you need to provide the theme file to styled-compon
 
 ```
 import { ThemeProvider } from 'styled-components'
-import { light, dark } from '@easybakeswap-libs/uikit'
+import { light, dark } from 'easybakeswap-uikit'
 ...
 <ThemeProvider theme={isDark}>...</ThemeProvider>
 ```
@@ -24,7 +24,7 @@ import { light, dark } from '@easybakeswap-libs/uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import { ResetCSS } from '@easybakeswap-libs/uikit'
+import { ResetCSS } from 'easybakeswap-uikit'
 ...
 <ResetCSS />
 ```

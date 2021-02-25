@@ -119,12 +119,12 @@ export const socials = [
     icon: "TelegramIcon",
     items: [
       {
-        label: "English",
-        href: "https://t.me/easybakeswap",
+        label: "Group",
+        href: "https://t.me/EasyBakeSwap",
       },
       {
-        label: "Announcements",
-        href: "https://t.me/EasyBakeSwapNews",
+        label: "News",
+        href: "https://t.me/EasyBakeNews",
       },
     ],
   },
