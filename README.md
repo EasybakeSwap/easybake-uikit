@@ -4,13 +4,13 @@ EasyBake UIkit is a set of React components and hooks used to build pages on Eas
 
 ## Install
 
-`yarn add @easybakeswap-libs/uikit`
+`yarn add easybake-uikit`
 
 ## Setup
 
 ### Theme
 
-Before using Pancake UIkit, you need to provide the theme file to styled-component.
+Before using Easybake UIkit, you need to provide the theme file to styled-component.
 
 ```
 import { ThemeProvider } from 'styled-components'
