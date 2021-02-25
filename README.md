@@ -4,7 +4,7 @@ EasyBake UIkit is a set of React components and hooks used to build pages on Eas
 
 ## Install
 
-`yarn add easybake-uikit`
+`yarn add easybakeswap-uikit`
 
 ## Setup
 
