@@ -1,6 +1,6 @@
 {
-  "name": "@easybakeswap-libs/uikit",
-  "version": "1.0.0",
+  "name": "easybakeswap-uikit",
+  "version": "1.0.1",
   "description": "Set of UI components for easybake projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
