@@ -86,7 +86,8 @@ const PanelFooter: React.FC<Props> = ({
           <PriceLink href="https://uniswap.info/token/" target="_blank">
             <PancakeRoundIcon width="24px" mr="8px" />
             <Text color="textSubtle" bold>{`$7.13`}</Text>
-          </PriceLink>        )}
+          </PriceLink>
+        )}
         <Flex>
           {socials.map((social, index) => {
             const Icon = Icons[social.icon];
