@@ -10,11 +10,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://easybakeswap.finance",
+        href: "https://app.easybakeswap.finance/swap",
       },
       {
         label: "Liquidity",
-        href: "https://easybakeswap.finance",
+        href: "https://app.easybakeswap.finance/add/ETH",
       },
     ],
   },
@@ -26,7 +26,7 @@ export const links = [
   {
     label: "Pools",
     icon: "PoolIcon",
-    href: "/syrup",
+    href: "/pools",
   },
   {
     label: "Lottery",
@@ -94,8 +94,8 @@ export const links = [
     icon: "MoreIcon",
     items: [
       {
-        label: "Voting",
-        href: "https://easybake.finance",
+        label: "Vote",
+        href: "https://snapshot.page/#/easybake.eth",
       },
       {
         label: "Github",
@@ -103,7 +103,7 @@ export const links = [
       },
       {
         label: "Docs",
-        href: "https://easybake.finance",
+        href: "https://docs.easybake.finance",
       },
       {
         label: "Blog",
@@ -117,16 +117,15 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    items: [
-      {
-        label: "Group",
-        href: "https://t.me/EasyBakeSwap",
-      },
-      {
-        label: "News",
+    // items: [
+    //   {
+    //     label: "Group",
+    //     href: "https://t.me/EasyBakeSwap",
+    //   },
+    //   {
+    //     label: "News",
         href: "https://t.me/EasyBakeNews",
-      },
-    ],
+    //  },],
   },
   {
     label: "Twitter",
