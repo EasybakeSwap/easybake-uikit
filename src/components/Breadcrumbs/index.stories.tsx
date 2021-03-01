@@ -33,7 +33,7 @@ export const CustomSeparator: React.FC = () => {
   return (
     <Text p="32px">
       <Text mb="16px">
-        <BreadCrumbs separator={<LogoIcon width="32px" />}>
+        <BreadCrumbs separator={<LogoIcon width="24px" />}>
           <Link href="/" color="secondary" style={{ fontWeight: 400 }}>
             Link
           </Link>

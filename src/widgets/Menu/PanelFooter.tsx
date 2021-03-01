@@ -78,7 +78,7 @@ const PanelFooter: React.FC<Props> = ({
     <Container>
       <SocialEntry>
         {ovenPriceUsd ? (
-          <PriceLink href="0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2" target="_blank">
+          <PriceLink href="https://uniswap.info/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2" target="_blank">
             <PancakeRoundIcon width="24px" mr="8px" />
             <Text color="textSubtle" bold>{`$${ovenPriceUsd.toFixed(3)}`}</Text>
           </PriceLink>
@@ -131,7 +131,7 @@ const PanelFooter: React.FC<Props> = ({
             </Button>
           }
         >
-          {langs.map((eng) => (
+          {langs.map((lang) => (
             <MenuButton
               key={lang.code}
               fullWidth

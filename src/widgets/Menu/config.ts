@@ -117,15 +117,7 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    // items: [
-    //   {
-    //     label: "Group",
-    //     href: "https://t.me/EasyBakeSwap",
-    //   },
-    //   {
-    //     label: "News",
-        href: "https://t.me/EasyBakeNews",
-    //  },],
+    href: "https://t.me/EasyBakeSwap",
   },
   {
     label: "Twitter",
