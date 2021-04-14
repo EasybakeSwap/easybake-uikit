@@ -30,7 +30,7 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null }) => (
         mb={index < config.length - 1 ? "8px" : "0"}
       />
     ))}
-    <HelpLink href="https://medium.com/easybakeswap" external>
+    <HelpLink href="https://easybake.medium.com" external>
       <HelpIcon color="primary" mr="6px" />
       Learn How to Connect
     </HelpLink>

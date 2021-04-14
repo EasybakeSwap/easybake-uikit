@@ -10,11 +10,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://app.easybakeswap.finance/swap",
+        href: "https://swap.easybake.finance/#/swap",
       },
       {
         label: "Liquidity",
-        href: "https://app.easybakeswap.finance/add/ETH",
+        href: "https://swap.easybake.finance/#/add/#/ETH",
       },
     ],
   },
@@ -59,19 +59,19 @@ export const links = [
     items: [
       {
         label: "Overview",
-        href: "https://easybakeswap.info",
+        href: "https://info.easybake.finance",
       },
       {
         label: "Tokens",
-        href: "https://easybakeswap.info/tokens",
+        href: "https://info.easybake.finance/tokens",
       },
       {
         label: "Pairs",
-        href: "https://easybakeswap.info/pairs",
+        href: "https://info.easybake.finance/pairs",
       },
       {
         label: "Accounts",
-        href: "https://easybakeswap.info/accounts",
+        href: "https://info.easybake.finance/accounts",
       },
     ],
   },
@@ -122,7 +122,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/EasyBakeSwap",
+    href: "https://twitter.com/EasyBakeFinance",
   },
 ];
 
