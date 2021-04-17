@@ -541,7 +541,7 @@ it("renders correctly", () => {
                 role="button"
               >
                 <a
-                  href="/farms"
+                  href="/bakery"
                 >
                   <svg
                     class="sc-dlfnbm fDSbid"
@@ -570,7 +570,7 @@ it("renders correctly", () => {
                   <div
                     class="sc-gKsewC krVPty"
                   >
-                    Farms
+                    Bakery
                   </div>
                 </a>
               </div>

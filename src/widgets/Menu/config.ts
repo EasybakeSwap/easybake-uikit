@@ -19,9 +19,9 @@ export const links = [
     ],
   },
   {
-    label: "Farms",
-    icon: "FarmIcon",
-    href: "/farms",
+    label: "Bakery",
+    icon: "BakeryIcon",
+    href: "/bakery",
   },
   {
     label: "Pools",
