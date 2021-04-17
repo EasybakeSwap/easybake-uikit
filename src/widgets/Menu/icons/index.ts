@@ -1,4 +1,3 @@
-export { default as FarmIcon } from "./Farm";
 export { default as BakeryIcon } from "./Bakery";
 export { default as GroupsIcon } from "./Groups";
 export { default as HamburgerIcon } from "./Hamburger";
