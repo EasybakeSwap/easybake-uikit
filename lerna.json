@@ -1,0 +1,13 @@
+{
+  "src": ["src/*"],
+  "version": "independent",
+  "npmClient": "yarn",
+  "workspaces": true,
+  "ignoreChanges": ["**/__tests__/**", "**/*.md", "**/.storybook/**"],
+  "command": {
+    "version": {
+      "conventionalCommits": true,
+      "message": "chore(release): Publish"
+    }
+  }
+}

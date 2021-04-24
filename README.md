@@ -1,38 +1,25 @@
-# 🍰 EasyBake UIkit
+# Pancake Toolkit
 
-EasyBake UIkit is a set of React components and hooks used to build pages on EasyBake's apps. It also contains a theme file for dark and light mode.
+This repository is a monorepo manage with [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/) and [Lerna](https://lerna.js.org/). 
 
-## Install
+## Packages
 
-`yarn add easybakeswap-uikit`
+- [easybake-uikit](https://github.com/easybakeswap/easybake-uikit) : React components used to build the Pancake UI
+- [eslint-config-easybake](https://github.com/easybakeswap/eslint-config-easybake) : An ESLint config for easybake, with Typescript and Prettier support
 
-## Setup
+## How to use
 
-### Theme
-
-Before using Easybake UIkit, you need to provide the theme file to styled-component.
-
-```
-import { ThemeProvider } from 'styled-components'
-import { light, dark } from 'easybakeswap-uikit'
-...
-<ThemeProvider theme={isDark}>...</ThemeProvider>
-```
-
-### Reset
-
-A reset CSS is available as a global styled component.
+Clone the repository 
 
 ```
-import { ResetCSS } from 'easybakeswap-uikit'
-...
-<ResetCSS />
+git clone git@github.com:easybakeswap/easybake-uikit.git
 ```
 
-### Types
+Run yarn at the root of the workspace
 
-This project is built with Typescript and export all the relevant types.
+```
+cd easybake-uikit
+yarn
+```
 
-## How to use the UIkit
-
-If you want to use components from the UIkit, check the [Storybook documentation](https://easybakeswap.github.io/easybake-uikit/)
+Then, refer to the readme of each project.

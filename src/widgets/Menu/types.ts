@@ -1,3 +1,4 @@
+import { Colors } from "../../theme/types";
 import { Login } from "../WalletModal/types";
 
 export interface LangType {
@@ -23,10 +24,16 @@ export interface NavTheme {
   hover: string;
 }
 
+export interface LinkStatus {
+  text: string;
+  color: keyof Colors;
+}
+
 export interface MenuSubEntry {
   label: string;
   href: string;
   calloutClass?: string;
+  status?: LinkStatus;
 }
 
 export interface MenuEntry {
@@ -36,12 +43,13 @@ export interface MenuEntry {
   href?: string;
   calloutClass?: string;
   initialOpenState?: boolean;
+  status?: LinkStatus;
 }
 
 export interface PanelProps {
   isDark: boolean;
   toggleTheme: (isDark: boolean) => void;
-  ovenPriceUsd?: number;
+  cakePriceUsd?: number;
   currentLang: string;
   langs: LangType[];
   setLang: (lang: LangType) => void;

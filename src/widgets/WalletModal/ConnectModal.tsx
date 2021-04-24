@@ -20,7 +20,7 @@ const HelpLink = styled(Link)`
 `;
 
 const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null }) => (
-  <Modal title="Connect to a Wallet" onDismiss={onDismiss}>
+  <Modal title="Connect to a wallet" onDismiss={onDismiss}>
     {config.map((entry, index) => (
       <WalletCard
         key={entry.title}
@@ -30,9 +30,12 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null }) => (
         mb={index < config.length - 1 ? "8px" : "0"}
       />
     ))}
-    <HelpLink href="https://easybake.medium.com" external>
+    <HelpLink
+      href="https://docs.pancakeswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain"
+      external
+    >
       <HelpIcon color="primary" mr="6px" />
-      Learn How to Connect
+      Learn how to connect
     </HelpLink>
   </Modal>
 );

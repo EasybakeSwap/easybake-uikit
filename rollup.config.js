@@ -1,11 +1,11 @@
 import typescript from "@rollup/plugin-typescript";
-import pkg from "./package.json";
+import url from "@rollup/plugin-url";
 
 export default {
   input: "src/index.ts",
   output: [
-    { file: pkg.main, format: "cjs" },
-    { file: pkg.module, format: "es" },
+    { file: main, format: "cjs" },
+    { file: module, format: "es" },
   ],
-  plugins: [typescript()],
+  plugins: [url(), typescript()],
 };
