@@ -6,7 +6,7 @@ const Icon: React.FC<SvgProps> = (props) => {
   return (
     <Svg
       id="ea8wrxrf1xjv1"
-      viewBox="0 0 613.700000 613.700000"
+      viewBox="0 0 513.700000 513.700000"
       shape-rendering="geometricPrecision"
       text-rendering="geometricPrecision"
     >
