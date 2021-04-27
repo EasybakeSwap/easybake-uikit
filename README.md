@@ -1,11 +1,11 @@
-# Pancake Toolkit
+# EasyBake UIkit 🧁
 
 This repository is a monorepo manage with [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/) and [Lerna](https://lerna.js.org/). 
 
 ## Packages
 
-- [easybake-uikit](https://github.com/easybakeswap/easybake-uikit) : React components used to build the Pancake UI
-- [eslint-config-easybake](https://github.com/easybakeswap/eslint-config-easybake) : An ESLint config for easybake, with Typescript and Prettier support
+- [easybake-uikit](https://github.com/easybakeswap/easybake-uikit) : React components used to build the EasyBake UI
+- [eslint-config-easybake](https://github.com/easybakeswap/eslint-config-easybake) : An ESLint config for EasyBake, with Typescript and Prettier support
 
 ## How to use
 

@@ -22,23 +22,25 @@ export const links = [
     href: "/",
   },
   {
-    label: "Trade",
+    label: "Swap",
     icon: "TradeIcon",
-    items: [
-      {
-        label: "Exchange",
-        href: "https://exchange.pancakeswap.finance",
-      },
-      {
-        label: "Liquidity",
-        href: "https://exchange.pancakeswap.finance/#/pool",
-      },
-    ],
+    href: "https://swap.easybake.finance/#/swap",
+    // --------- If we want to have seperate 
+    // items: [
+    //   {
+    //     label: "Swap",
+    //     href: "https://swap.easybake.finance/#/swap",
+    //   },
+    //   {
+    //     label: "Liquidity",
+    //     href: "https://swap.easybake.finance/#/add/#/ETH",
+    //   },
+    // ],
   },
   {
-    label: "Farms",
-    icon: "FarmIcon",
-    href: "/farms",
+    label: "Bakery",
+    icon: "BakeryIcon",
+    href: "/bakery",
     status: status.LIVE,
   },
   {
