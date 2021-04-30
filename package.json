@@ -13,17 +13,13 @@
   "scripts": {
     "start": "yarn storybook",
     "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
-    "build -lerna": "lerna run build",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "format:check": "prettier --check --loglevel error 'src/**/*.{js,jsx,ts,tsx}'",
-    "format:check -lerna": "lerna run format:check",
     "format:write": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
     "storybook": "start-storybook -p 6006",
     "storybook:build": "build-storybook",
-    "storybook:build -lerna": "lerna run storybook:build",
     "test": "jest",
-    "test -lerna": "lerna run test",
-    "release": "yarn build && yarn lerna publish"
+    "release": "yarn build && np"
   },
   "jest": {
     "setupFilesAfterEnv": [
@@ -76,7 +72,6 @@
     "styled-components": "^5.2.3"
   },
   "dependencies": {
-    "@popperjs/core": "^2.9.2",
     "@types/lodash": "^4.14.168",
     "@types/styled-system": "^5.1.10",
     "lodash": "^4.17.20",
