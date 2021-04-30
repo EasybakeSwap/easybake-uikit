@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import Text from "../../components/Text/Text";
 import { CopyIcon } from "../../components/Svg";
+import ToastContainer from "../Toast/ToastContainer";
+import { alertVariants } from "../../components/Alert";
 
 interface Props {
   toCopy: string;
@@ -47,7 +49,7 @@ const CopyToClipboard: React.FC<Props> = ({ toCopy, children, ...props }) => {
     >
       {children}
       <CopyIcon width="20px" color="primary" ml="4px" />
-      <Tooltip isTooltipDisplayed={isTooltipDisplayed}>Copied</Tooltip>
+      <Tooltip isTooltipDisplayed={isTooltipDisplayed}>Copied Address</Tooltip>
     </StyleButton>
   );
 };

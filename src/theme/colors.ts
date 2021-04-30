@@ -10,13 +10,13 @@ export const baseColors = {
   warning: "#FFB237",
 };
 
-export const brandColors = {
-  binance: "#F0B90B",
-};
+// export const brandColors = {
+//   binance: "#F0B90B",
+// };
 
 export const lightColors: Colors = {
   ...baseColors,
-  ...brandColors,
+  // ...brandColors,
   background: "#FAF9FA",
   backgroundDisabled: "#E9EAEB",
   backgroundAlt: "#FFFFFF",
@@ -41,7 +41,7 @@ export const lightColors: Colors = {
 
 export const darkColors: Colors = {
   ...baseColors,
-  ...brandColors,
+  // ...brandColors,
   secondary: "#9A6AFF",
   background: "#100C18",
   backgroundDisabled: "#3c3742",

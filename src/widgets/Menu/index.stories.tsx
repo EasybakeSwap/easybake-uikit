@@ -6,7 +6,6 @@ import Heading from "../../components/Heading/Heading";
 import Text from "../../components/Text/Text";
 import { MenuEntry } from "./components/MenuEntry";
 import Menu from "./Menu";
-import { LangType } from "./types";
 import { links } from "./config";
 
 export default {
@@ -14,8 +13,6 @@ export default {
   component: Menu,
   argTypes: {},
 };
-
-const langs: LangType[] = [...Array(20)].map((_, i) => ({ code: `en${i}`, language: `English${i}` }));
 
 // This hook is used to simulate a props change, and force a re rendering
 const useProps = () => {
@@ -25,10 +22,7 @@ const useProps = () => {
     logout: noop,
     isDark: false,
     toggleTheme: noop,
-    langs,
-    setLang: noop,
-    currentLang: "EN",
-    cakePriceUsd: 0.023158668932877668,
+    ovenPriceUsd: 7.13,
     links,
     profile: null,
   });
@@ -41,10 +35,7 @@ const useProps = () => {
         logout: noop,
         isDark: false,
         toggleTheme: noop,
-        langs,
-        setLang: noop,
-        currentLang: "EN",
-        cakePriceUsd: 0.023158668932877668,
+        ovenPriceUsd: 7.13,
         links,
         profile: null,
       });
@@ -67,7 +58,7 @@ export const Connected: React.FC = () => {
             Page body
           </Heading>
           <Text as="p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            lol Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
             nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
@@ -92,16 +83,14 @@ export const NotConnected: React.FC = () => {
         account={null}
         login={noop}
         logout={noop}
-        isDark
+        isDark={false}
         toggleTheme={noop}
-        langs={langs}
-        setLang={noop}
-        currentLang="EN"
+        ovenPriceUsd={7.13}
         links={links}
       >
         <div>
           <h1>Page body</h1>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          Not Connected Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
@@ -125,10 +114,7 @@ export const WithNoProfile: React.FC = () => {
         logout={noop}
         isDark={false}
         toggleTheme={noop}
-        langs={langs}
-        setLang={noop}
-        currentLang="EN"
-        cakePriceUsd={0.23158668932877668}
+        ovenPriceUsd={7.13}
         links={links}
         profile={{
           profileLink: "/profile",
@@ -167,13 +153,10 @@ export const WithProfile: React.FC = () => {
         logout={noop}
         isDark={false}
         toggleTheme={noop}
-        langs={langs}
-        setLang={noop}
-        currentLang="EN"
-        cakePriceUsd={0.23158668932877668}
+        ovenPriceUsd={7.13}
         links={links}
         profile={{
-          username: "pancakeswap",
+          username: "easybake",
           image: "https://pancakeswap.finance/images/nfts/blueberries-preview.png",
           profileLink: "/profile",
           noProfileLink: "/no-profile",
@@ -221,13 +204,10 @@ export const WithSubmenuSelected: React.FC = () => {
         logout={noop}
         isDark={false}
         toggleTheme={noop}
-        langs={langs}
-        setLang={noop}
-        currentLang="EN"
-        cakePriceUsd={0.23158668932877668}
+        ovenPriceUsd={7.13}
         links={links}
         profile={{
-          username: "pancakeswap",
+          username: "easybake",
           image: "https://pancakeswap.finance/images/nfts/blueberries-preview.png",
           profileLink: "/profile",
           noProfileLink: "/no-profile",

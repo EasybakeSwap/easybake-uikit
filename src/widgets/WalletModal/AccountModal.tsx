@@ -14,20 +14,22 @@ interface Props {
 }
 
 const AccountModal: React.FC<Props> = ({ account, logout, onDismiss = () => null }) => (
-  <Modal title="Your wallet" onDismiss={onDismiss}>
-    <Text
-      fontSize="20px"
-      bold
-      style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", marginBottom: "8px" }}
-    >
-      {account}
-    </Text>
-    <Flex mb="32px">
-      <LinkExternal small href={`https://bscscan.com/address/${account}`} mr="16px">
-        View on BscScan
+  <Modal title="Your Connected Wallet" onDismiss={onDismiss}>
+    <CopyToClipboard toCopy={account}>
+      <Text
+        fontSize="20px"
+        bold
+        style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", marginBottom: "8px" }}
+      >
+        {account}
+      </Text>
+    </CopyToClipboard>
+    <Flex mb="10px" justifyContent="center">
+      <LinkExternal small href={`https://etherscan.com/address/${account}`} mr="0px">
+        View on Etherscan
       </LinkExternal>
-      <CopyToClipboard toCopy={account}>Copy Address</CopyToClipboard>
     </Flex>
+
     <Flex justifyContent="center">
       <Button
         scale="sm"

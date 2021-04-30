@@ -18,7 +18,7 @@ const float = keyframes`
 		transform: translatey(0px);
 	}
 	50% {
-		transform: translatey(10px);
+		transform: translatey(5px);
 	}
 	100% {
 		transform: translatey(0px);
@@ -38,7 +38,7 @@ const RotatingPancakeIcon = styled(PancakeIcon)`
 `;
 
 const FloatingPanIcon = styled(PanIcon)`
-  animation: ${float} 6s ease-in-out infinite;
+  animation: ${float} 3s ease-in-out infinite;
   transform: translate3d(0, 0, 0);
 `;
 

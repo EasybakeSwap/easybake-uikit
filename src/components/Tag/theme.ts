@@ -29,9 +29,6 @@ export const styleVariants = {
   [variants.TEXTSUBTLE]: {
     backgroundColor: "textSubtle",
   },
-  [variants.BINANCE]: {
-    backgroundColor: "binance",
-  },
   [variants.FAILURE]: {
     backgroundColor: "failure",
   },

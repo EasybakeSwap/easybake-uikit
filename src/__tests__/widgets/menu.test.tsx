@@ -2,7 +2,7 @@ import React from "react";
 import noop from "lodash/noop";
 import { BrowserRouter } from "react-router-dom";
 import { renderWithTheme } from "../../testHelpers";
-import { Menu, menuConfig, LangType } from "../../widgets/Menu";
+import { Menu, menuConfig } from "../../widgets/Menu";
 
 /**
  * @see https://jestjs.io/docs/en/manual-mocks
@@ -21,8 +21,6 @@ Object.defineProperty(window, "matchMedia", {
   })),
 });
 
-const langs: LangType[] = [...Array(20)].map((_, i) => ({ code: `en${i}`, language: `English${i}` }));
-
 it("renders correctly", () => {
   const { asFragment } = renderWithTheme(
     <BrowserRouter>
@@ -32,10 +30,7 @@ it("renders correctly", () => {
         logout={noop}
         isDark={false}
         toggleTheme={noop}
-        langs={langs}
-        setLang={noop}
-        currentLang="EN"
-        cakePriceUsd={0.23158668932877668}
+        ovenPriceUsd={7.13}
         links={menuConfig}
       >
         body
