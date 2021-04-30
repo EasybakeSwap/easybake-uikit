@@ -1,6 +1,6 @@
 {
   "name": "easybake-uikit",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Set of UI components for EasyBake projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -52,7 +52,7 @@
     "eslint-config-easybake": "1.0.0",
     "jest": "^26.6.3",
     "jest-styled-components": "^7.0.3",
-    "lerna": "^4.0.0",
+    "np": "^7.4.0",
     "prettier": "^2.1.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
