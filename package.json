@@ -1,6 +1,6 @@
 {
   "name": "easybake-uikit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Set of UI components for EasyBake projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
